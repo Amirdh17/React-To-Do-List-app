@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": 4,
+      "checker": true,
+      "item": "Python"
+    },
+    {
+      "id": 5,
+      "checker": false,
+      "item": "React course"
+    }
+  ]
+}
