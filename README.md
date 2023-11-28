@@ -9,18 +9,20 @@
 
 ## Key Features
   The main features of the To-Do-List app includes 
-    * Adding task 
-    * Deleting task 
-    * Searching task 
-    * Marking task as completed
-    * Fetching data from the external api
+  * Adding task 
+  * Deleting task 
+  * Searching task 
+  * Marking task as completed
+  * Fetching data from the external api
 
 ## Implementation Details
-  * In src folder, Different components are developed to provide specific function for the application. They are Content.js, Header.js, Footer.js, ItemList.js, AddItems.js, SearchItems.js, RequestApi.js. App.css contains all the rquired styles and classes that make application look more user friendly appearance.
+  * In src folder, Different components are developed to provide specific function for the application. They are Content.js, Header.js, Footer.js, ItemList.js, AddItems.js, SearchItems.js, RequestApi.js. App.css contains all the required styles and classes that make application look more user friendly appearance.
   * React controlled inputs is used to get input from user through the form tag. The input is stored using the useState hook. The input data is get updated to the db.json file by using fetch function.
   * When the app is rendered for the first time, the data in db.json file is fetched using the fetch function within the useEffect hook with empty dependency. 
 
 ## Conclusion
   While developing this application, good practice of coding is followed. Basic to advanced concepts are studied and practiced through this project. Local storage concept is used to store the user data in the begining then for learning purpose Fake api is created to practice the Fetch api data concepts. 
 
-Special Thanks to Balachandra youtube channel [www.balachandra.in](https://www.balachandra.in/)
+Special Thanks to Balachandra youtube channel for supporting in learning React Js 
+[www.balachandra.in](https://www.balachandra.in/)
+Balachandra youtube Channel [Link](https://www.youtube.com/@Balachandra_in)
